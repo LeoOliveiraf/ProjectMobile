@@ -11,7 +11,7 @@ export default function HomeScreen({ route }) {
 
   return (
     <View style={styles.container}>
-      <Text>Bem-vindo à Home!</Text>
+      <Text>Bem-vindo à Home</Text>
       {username && <Text>Usuário Logado: {username}</Text>}
     </View>
   );
